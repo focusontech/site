@@ -1,10 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('../img/bg-coming-soon.png');
+    background: black;
     max-height: 100vh;
-    background-position: center;
-    background-size: cover;
 }
 /*DIV .coming-soon-wrapper*/
 .coming-soon-wrapper{
