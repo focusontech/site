@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    max-height: 100vh;
+}
+/*DIV .coming-soon-wrapper*/
+.coming-soon-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+.h1-style{
+    color: white;
+    font-family: 'Nexa Light';
+    font-size: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+.time-counter-style{
+    color: white;
+    font-family: 'Nexa Light';
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+}
+/*DIV ends*/
+/**/
+.social-media-bar{
+    max-width: 1000px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
+.social-media-bar a{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    display: inline-block;
+    margin:0 0 0 40px; 
+}
+.social-media-bar a img{
+    width: 40px;
+    height: 40px;
+}
+.animate-opacity{
+    animation: opac 5.0s
+}
+@keyframes opac{
+    from{
+        opacity: 0
+    } to{
+        opacity: 1
+    }
+}

